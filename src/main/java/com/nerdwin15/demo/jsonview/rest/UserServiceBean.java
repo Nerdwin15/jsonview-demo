@@ -42,9 +42,9 @@ public class UserServiceBean implements UserService {
   
   @PostConstruct
   public void postConstruct() {
-    users.put(++nextId, createUser(nextId, "user1", "Joe Shmoe", "joe@noonecares.com"));
-    users.put(++nextId, createUser(nextId, "user2", "Pinky Suavo", "pinky@acmelabs.com"));
-    users.put(++nextId, createUser(nextId, "user3", "Johnny Bravo", "bravo@cartoonnetwork.com"));
+    users.put(++nextId, createUser(nextId, "joe", "Joe Shmoe", "joe@noonecares.com"));
+    users.put(++nextId, createUser(nextId, "pinky", "Pinky Suavo", "pinky@acmelabs.com"));
+    users.put(++nextId, createUser(nextId, "johnny.bravo", "Johnny Bravo", "bravo@cartoonnetwork.com"));
   }
   
   /**
